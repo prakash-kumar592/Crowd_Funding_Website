@@ -74,7 +74,7 @@ npm run dev
 
 ## Live Demo
 
-[https://buy-me-a-coffee.example.com](https://buy-me-a-coffee.example.com)
+_Not deployed yet_
 
 ## GitHub Repository
 
