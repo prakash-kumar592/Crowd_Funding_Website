@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: crowd-next
+    env: node
+    branch: main
+    buildCommand: npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NEXT_PUBLIC_URL
+        fromSecret: NEXT_PUBLIC_URL
+      - key: NEXTAUTH_URL
+        fromSecret: NEXTAUTH_URL
+      - key: NEXTAUTH_SECRET
+        fromSecret: NEXTAUTH_SECRET
+      - key: MONGO_URI
+        fromSecret: MONGO_URI
+      - key: GITHUB_ID
+        fromSecret: GITHUB_ID
+      - key: GITHUB_SECRET
+        fromSecret: GITHUB_SECRET
