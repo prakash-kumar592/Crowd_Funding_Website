@@ -59,6 +59,6 @@ As a Supporter: Browse creator profiles, select a donation amount, and complete 
 
 Live Demo: https://buy-me-a-coffee.example.com
 
-GitHub Repository: https://github.com/your-username/buy-me-a-coffee
+GitHub Repository: https://github.com/prakash-kumar592/Crowd
 
-Developed by Prakash Shaw (https://github.com/Prakash97971).
+Developed by Prakash (https://github.com/prakash-kumar592).

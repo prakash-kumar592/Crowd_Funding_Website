@@ -78,9 +78,9 @@ npm run dev
 
 ## GitHub Repository
 
-[https://github.com/Prakash97971/Crowd_funding_website](https://github.com/Prakash97971/Crowd_funding_website)
+[https://github.com/prakash-kumar592/Crowd](https://github.com/prakash-kumar592/Crowd)
 
 ## Developed By
 
-Prakash Shaw  
-[GitHub Profile](https://github.com/Prakash97971)
+Prakash  
+[GitHub Profile](https://github.com/prakash-kumar592)
