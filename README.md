@@ -30,7 +30,7 @@ Buy Me a Coffee is a full-stack web application that empowers content creatorsâ€
 
 - Frontend: Next.js, React
 - Authentication: Auth.js (NextAuth)
-- Backend: Node.js, Express.js (REST API)
+- Backend: Next.js API routes / Node.js
 - Database: MongoDB (MongoDB Atlas)
 - Payments: Razorpay
 - Styling: Tailwind CSS
@@ -48,13 +48,44 @@ npm install
 ```
 GITHUB_ID=your_github_id
 GITHUB_SECRET=your_github_secret
-NEXT_PUBLIC_KEY_ID=your_razorpay_key_id
-KEY_SECRET=your_razorpay_key_secret
 NEXT_PUBLIC_URL=http://localhost:3000
 NEXTAUTH_URL=http://localhost:3000
 NEXTAUTH_SECRET=your_nextauth_secret
 MONGO_URI=your_mongodb_connection_uri
 ```
+
+3. Run the application:
+
+- Start MongoDB locally or ensure your MongoDB Atlas cluster is active.
+- Start the server:
+
+```
+npm run dev
+```
+
+- Open your browser and navigate to `http://localhost:3000`.
+
+## Deploying on Render
+
+This project is ready to deploy on Render using the included `render.yaml` file.
+
+1. Go to https://render.com and sign in with GitHub.
+2. Click **New + â†’ Web Service**.
+3. Select your repository: `prakash-kumar592/Crowd`.
+4. Fill in service settings:
+   - **Build Command**: `npm run build`
+   - **Start Command**: `npm run start`
+   - **Environment**: Node
+5. Add these environment variables in Render:
+   - `NEXT_PUBLIC_URL` = your Render service URL
+   - `NEXTAUTH_URL` = your Render service URL
+   - `NEXTAUTH_SECRET`
+   - `MONGO_URI`
+   - `GITHUB_ID`
+   - `GITHUB_SECRET`
+6. Create the service and wait for deployment.
+
+After deployment, use the generated service URL instead of the placeholder demo URL.
 
 3. Run the application:
 
